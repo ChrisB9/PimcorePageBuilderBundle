@@ -11,7 +11,7 @@ final class PimcorePageBuilderBundle extends AbstractPimcoreBundle
 {
     use PackageVersionTrait;
 
-    private const BUNDLE_PATH = '/bundles/pimcoregrapesjs/';
+    private const BUNDLE_PATH = '/bundles/pimcorepagebuilder/';
 
     protected function getComposerPackageName(): string
     {
