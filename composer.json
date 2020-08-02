@@ -1,5 +1,5 @@
 {
-  "name": "cbenco/PimcorePageBuilderBundle",
+  "name": "cbenco/pimcore-pagebuilder-bundle",
   "description": "a pagebuilder using grapesjs for pimcore",
   "minimum-stability": "stable",
   "prefer-stable": true,
