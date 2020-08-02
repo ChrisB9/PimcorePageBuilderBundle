@@ -1,6 +1,8 @@
-# Pagebuilder for PimCore
+# Pagebuilder for Pimcore
 
-This is currently a Work in Progress but already functional implementation of a page builder for pimcore.
+This is currently a Work in Progress but already functional implementation of a page builder for Pimcore.
+
+Installation: `composer require cbenco/pimcore-pagebuilder-bundle`
 
 The pagebuilder contains a bootstrap-plugin.
 In the future, the components should be either standalone or based entirely on tailwindcss.  
