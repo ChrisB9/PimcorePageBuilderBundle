@@ -1,0 +1,30 @@
+{
+  "name": "cbenco/PimcoreGrapesJSBundle",
+  "description": "a pagebuilder using grapesjs for pimcore",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "license": "MIT",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "Christian Rodriguez Benthake",
+      "email": "git@cben.co"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "cbenco\\PimcoreGrapesJSBundle\\": "./src/"
+    }
+  },
+  "require": {
+    "php": "^7.4",
+    "pimcore/pimcore": "^6.6"
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "cbenco\\PimcoreGrapesJSBundle"
+      ]
+    }
+  }
+}

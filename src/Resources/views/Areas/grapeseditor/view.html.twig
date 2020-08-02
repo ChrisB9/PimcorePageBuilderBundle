@@ -1,0 +1,4 @@
+{% if editmode %}
+    {{ pimcore_pagebuilder('pagebuilder') }}
+{% endif %}
+<div class="js-isbrick" data-component="PageBuilder" data-props="{{ pimcore_pagebuilder('pagebuilder').getData() }}"></div>

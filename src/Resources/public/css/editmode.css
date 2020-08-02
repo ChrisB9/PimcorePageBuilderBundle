@@ -1,0 +1,79 @@
+/* Let's highlight canvas boundaries */
+#gjs {
+    border: 3px solid #444;
+}
+
+.gjs-block {
+    width: auto;
+    height: auto;
+    min-height: auto;
+}
+
+.gjs-frames {
+    height: 100%;
+}
+
+.gjs-cv-canvas .pimcore_iframe_mask {
+    display: none;
+}
+
+#gjs .panel {
+    width: 90%;
+    max-width: 700px;
+    border-radius: 3px;
+    padding: 30px 20px;
+    margin: 150px auto 0px;
+    background-color: #d983a6;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 0.75);
+    font: caption;
+    font-weight: 100;
+}
+
+.gjs-one-bg {
+    background-color: #463a3c
+}
+
+.gjs-one-color {
+    color: #463a3c
+}
+
+.gjs-one-color-h:hover {
+    color: #463a3c
+}
+
+.gjs-two-bg {
+    background-color: #b9a5a6
+}
+
+.gjs-two-color {
+    color: #b9a5a6
+}
+
+.gjs-two-color-h:hover {
+    color: #b9a5a6
+}
+
+.gjs-three-bg {
+    background-color: #804f7b
+}
+
+.gjs-three-color {
+    color: #804f7b
+}
+
+.gjs-three-color-h:hover {
+    color: #804f7b
+}
+
+.gjs-four-bg {
+    background-color: #d97aa6
+}
+
+.gjs-four-color {
+    color: #d97aa6
+}
+
+.gjs-four-color-h:hover {
+    color: #d97aa6
+}
