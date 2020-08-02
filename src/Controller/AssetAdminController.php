@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace cbenco\PimcoreGrapesJSBundle\Controller;
+namespace cbenco\PimcorePageBuilderBundle\Controller;
 
 use Exception;
 use Pimcore\Bundle\AdminBundle\Controller\AdminController;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace cbenco\PimcoreGrapesJSBundle\DependencyInjection;
+namespace cbenco\PimcorePageBuilderBundle\DependencyInjection;
 
 use Exception;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

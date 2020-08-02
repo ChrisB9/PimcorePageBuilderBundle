@@ -1,8 +1,15 @@
 {
-  "name": "cbenco/PimcoreGrapesJSBundle",
+  "name": "cbenco/PimcorePageBuilderBundle",
   "description": "a pagebuilder using grapesjs for pimcore",
   "minimum-stability": "stable",
   "prefer-stable": true,
+  "type": "pimcore-bundle",
+  "keywords": [
+    "pimcore",
+    "pimcore-plugin",
+    "pagebuilder",
+    "grapesjs"
+  ],
   "license": "MIT",
   "version": "1.0.1",
   "authors": [
@@ -13,7 +20,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "cbenco\\PimcoreGrapesJSBundle\\": "./src/"
+      "cbenco\\PimcorePageBuilderBundle\\": "./src/"
     }
   },
   "require": {

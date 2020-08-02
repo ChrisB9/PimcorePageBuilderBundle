@@ -3,4 +3,4 @@ pimcore:
   documents:
     tags:
       map:
-        pagebuilder: \cbenco\PimcoreGrapesJSBundle\Document\PageBuilderTag
+        pagebuilder: \cbenco\PimcorePageBuilderBundle\Document\PageBuilderTag

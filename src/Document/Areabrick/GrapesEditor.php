@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace cbenco\PimcoreGrapesJSBundle\Document\Areabrick;
+namespace cbenco\PimcorePageBuilderBundle\Document\Areabrick;
 
 use Pimcore\Extension\Document\Areabrick\AbstractTemplateAreabrick;
 use ReflectionClass;

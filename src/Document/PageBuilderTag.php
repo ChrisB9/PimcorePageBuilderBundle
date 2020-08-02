@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace cbenco\PimcoreGrapesJSBundle\Document;
+namespace cbenco\PimcorePageBuilderBundle\Document;
 
 use Pimcore\Model\Document\Tag;
 

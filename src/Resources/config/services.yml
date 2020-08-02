@@ -4,7 +4,7 @@ services:
     autoconfigure: true
     public: false
 
-  cbenco\PimcoreGrapesJSBundle\Document\Areabrick\GrapesEditor:
+  cbenco\PimcorePageBuilderBundle\Document\Areabrick\GrapesEditor:
     arguments: ['@logger']
     tags:
       - {name: pimcore.area.brick, id: grapeseditor}

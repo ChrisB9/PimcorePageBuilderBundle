@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace cbenco\PimcoreGrapesJSBundle;
+namespace cbenco\PimcorePageBuilderBundle;
 
 use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
 use Pimcore\Extension\Bundle\Traits\PackageVersionTrait;
 
-final class PimcoreGrapesJSBundle extends AbstractPimcoreBundle
+final class PimcorePageBuilderBundle extends AbstractPimcoreBundle
 {
     use PackageVersionTrait;
 
@@ -15,7 +15,7 @@ final class PimcoreGrapesJSBundle extends AbstractPimcoreBundle
 
     protected function getComposerPackageName(): string
     {
-        return 'cbenco/PimcoreGrapesJSBundle';
+        return 'cbenco/PimcorePageBuilderBundle';
     }
 
     public function getEditmodeCssPaths(): array

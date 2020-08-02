@@ -1,4 +1,4 @@
 pimcore-pagebuilder:
-  resource: "@PimcoreGrapesJSBundle/Controller/"
+  resource: "@PimcorePageBuilderBundle/Controller/"
   type: annotation
   prefix: /admin/pagebuilder/
