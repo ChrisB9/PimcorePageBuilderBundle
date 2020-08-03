@@ -30,7 +30,7 @@
   "extra": {
     "pimcore": {
       "bundles": [
-        "cbenco\\PimcoreGrapesJSBundle"
+        "cbenco\\PimcorePageBuilderBundle"
       ]
     }
   }
