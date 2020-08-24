@@ -17,7 +17,9 @@ and renders it to the frontend:
 
 Next Todos:
 
-- [ ] replacing GrapeJs-Richtext-Editor with PimCore's CKEDITOR
+- [ ] (WIP) replacing GrapeJs-Richtext-Editor with PimCore's CKEDITOR
 - [ ] Supporting drag'n'drop of assets
 - [ ] Supporting upload of videos (currently only images are supported)
 - [ ] Adding support for registered Area-Bricks
+- [ ] Functional/Selenium-Tests
+- [ ] Replace bootstrap components with custom components
