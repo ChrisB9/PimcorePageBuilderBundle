@@ -11,10 +11,20 @@ import pimcorePlugin from './pimcorePlugin';
  * @returns {*}
  */
 window.registerEditor = function (node, storageId, component) {
+  let style = component.css;
+  if (component.style) {
+    try {
+      style = JSON.parse(component.style);
+    } catch (e) {
+      console.err(e);
+      // always fallback to css
+      style = component.css;
+    }
+  }
   const config = {
     container: node,
     components: component.components || component.html,
-    style: component.style || component.css,
+    style,
     height: '600px',
     width: '95%',
     storageManager: {
