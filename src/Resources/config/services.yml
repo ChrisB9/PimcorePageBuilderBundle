@@ -5,6 +5,5 @@ services:
     public: true
 
   cbenco\PimcorePageBuilderBundle\Document\Areabrick\GrapesEditor:
-    arguments: ['@logger']
     tags:
       - {name: pimcore.area.brick, id: grapeseditor}

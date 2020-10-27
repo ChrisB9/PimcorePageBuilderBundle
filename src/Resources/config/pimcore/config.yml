@@ -4,3 +4,8 @@ pimcore:
     tags:
       map:
         pagebuilder: \cbenco\PimcorePageBuilderBundle\Document\PageBuilderTag
+  objects:
+    class_definitions:
+      data:
+        map:
+          pagebuilder: \cbenco\PimcorePageBuilderBundle\PageBuilder\ClassDefinition
