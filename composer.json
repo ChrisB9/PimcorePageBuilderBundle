@@ -25,7 +25,7 @@
   },
   "require": {
     "php": "^7.4 || ^8.0",
-    "pimcore/pimcore": "^6.6 || 10.0"
+    "pimcore/pimcore": "^6.6 || ^10.0"
   },
   "extra": {
     "pimcore": {
